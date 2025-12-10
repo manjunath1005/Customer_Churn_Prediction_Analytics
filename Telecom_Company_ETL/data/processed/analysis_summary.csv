@@ -1,0 +1,24 @@
+METRIC,VALUE
+churn_percentage,25.6
+churn_yes_count,256
+total_rows_counted_for_churn,1000
+avg_monthly_charges_per_contract,"{'Month-to-month': 67.293, 'One year': 68.184, 'Two year': 63.296}"
+tenure_group_counts,"{'New': 320, 'Regular': 268, 'Champion': 209, 'Loyal': 203}"
+internet_service_distribution_summary,"{'Fiber optic': 468, 'DSL': 329, 'No': 203}"
+churn_by_monthly_charge_segment,"{'High': {'total': 539, 'churns': 178, 'churn_rate_pct': 33.024}, 'Low': {'total': 218, 'churns': 22, 'churn_rate_pct': 10.092}, 'Medium': {'total': 243, 'churns': 56, 'churn_rate_pct': 23.045}}"
+
+__section__,tenure_group,No,Yes,churn_rate_pct
+PIVOT_Churn_vs_Tenure,Champion,196,13,6.22
+PIVOT_Churn_vs_Tenure,Loyal,170,33,16.256
+PIVOT_Churn_vs_Tenure,New,166,154,48.125
+PIVOT_Churn_vs_Tenure,Regular,212,56,20.896
+
+__section__,InternetService,count
+InternetService_Distribution,Fiber optic,468
+InternetService_Distribution,DSL,329
+InternetService_Distribution,No,203
+
+__section__,Contract,count
+Contract_Counts,Month-to-month,548
+Contract_Counts,Two year,248
+Contract_Counts,One year,204
